@@ -18,8 +18,8 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Head>
-        <title>Coding Quiz</title>
-        <meta name="description" content="Quiz application to improve your codding skills" />
+        <title>Quiz Game</title>
+        <meta name="description" content="Quiz application to improve your knowledge" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
