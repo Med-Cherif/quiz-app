@@ -1,0 +1,26 @@
+.spinner {
+    --timer: 2s;
+    animation: spinner var(--timer) linear infinite;    
+}
+
+.circle {
+    stroke: var(--main-color);
+    /* stroke-dashoffset: 87.96459430051421    ; */
+    animation: circle var(--timer) linear infinite;
+}
+
+
+@keyframes circle {
+    0% {
+        stroke-dashoffset: 87.96459430051421;
+    }
+    100% {
+        stroke-dashoffset: -87.96459430051421;
+    }
+}
+
+@keyframes spinner {
+    100% {
+        transform: rotate(360deg);
+    }
+}
